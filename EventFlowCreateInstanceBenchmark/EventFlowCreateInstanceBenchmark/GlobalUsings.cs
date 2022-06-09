@@ -1,0 +1,17 @@
+﻿global using BenchmarkDotNet.Attributes;
+global using BenchmarkDotNet.Jobs;
+global using BenchmarkDotNet.Order;
+global using EventFlow.Aggregates;
+global using EventFlow.Core;
+global using EventFlow.EventStores;
+global using EventFlow.Extensions;
+global using EventFlow.ReadStores;
+global using EventFlow.ValueObjects;
+global using EventFlowCreateInstanceBenchmark.MyEventFlow;
+global using Microsoft.Extensions.Caching.Memory;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using System.Collections.Concurrent;
+global using System.Reflection;
+global using System.Text.RegularExpressions;
+global using System.Linq.Expressions;
